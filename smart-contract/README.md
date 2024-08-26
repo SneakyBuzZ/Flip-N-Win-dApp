@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# FLIP N' WIN Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+#### 1. Compile the Solidity code
 
-Try running some of the following tasks:
+```ts
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+npx hardhat compile
+
+```
+
+#### 2. Deploy Smart Contract
+
+```ts
+
+npx hardhat ignition deploy ignition/modules/CoinFlip.ts --network sepolia
+
 ```
