@@ -192,18 +192,22 @@ const BetForm = () => {
 
           {isConnected ? (
             <Button
-              className="w-full bg-neutral-300 hover:bg-neutral-200 text-black font-medium"
+              className="w-full dark:bg-neutral-500 bg-neutral-800 dark:hover:bg-neutral-400 hover:bg-neutral-700 dark:text-black text-flip-text-primary font-medium"
               type="submit"
             >
-              {isLoading ? <MoonLoader size={20} /> : "Bet"}
+              {isLoading ? <MoonLoader size={20} color="#FFFF00" /> : "Bet"}
             </Button>
           ) : (
             <Button
-              className="w-full bg-neutral-300 hover:bg-neutral-200 text-black font-medium"
+              className="w-full dark:bg-neutral-500 bg-neutral-800 dark:hover:bg-neutral-400 hover:bg-neutral-700 dark:text-black text-flip-text-primary font-medium"
               type="button"
               onClick={connectWallet}
             >
-              {isLoading ? <MoonLoader size={20} /> : "Connect Wallet"}
+              {isLoading ? (
+                <MoonLoader size={20} color="#FFFF00" />
+              ) : (
+                "Connect Wallet"
+              )}
             </Button>
           )}
         </form>
