@@ -65,10 +65,10 @@ export const NAV_ELEMENTS = [
   },
   {
     name: "Github",
-    href: "https://www.linkedin.com/in/kaushik-katikala/",
+    href: "https://github.com/SneakyBuzZ/Flip-N-Win-dApp",
   },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/kaushik-katikala/",
+    name: "Resume",
+    href: "https://drive.google.com/file/d/1mX67d6fpYiyrNqEb1qTTj16E_UlNm-2d/view?usp=sharing",
   },
 ];
