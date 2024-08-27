@@ -6,7 +6,7 @@
 
 #### 1. A web3 wallet (e.g., MetaMask) connected to a supported Ethereum network (e.g., Sepolia).
 
-#### 2. Node.js and npm (or yarn) installed.
+#### 2. Node.js and npm installed.
 
 #### 3. Hardhat development environment set up.
 
