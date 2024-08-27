@@ -14,7 +14,7 @@ const CoinFlipping = ({
   const [coinSide, setCoinSide] = useState(headCoinSvg);
 
   useEffect(() => {
-    if (isLoading) {
+    if (true) {
       delay(1000).then(() => {
         setInterval(() => {
           setCoinSide(coinSide === headCoinSvg ? tailCoinSvg : headCoinSvg);

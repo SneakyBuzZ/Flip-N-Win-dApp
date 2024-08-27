@@ -18,16 +18,6 @@ module.exports = {
     },
     extend: {
       colors: {
-
-        flip: {
-          neutral: "#050505",
-          border: "#171717",
-          text: {
-            primary: "#fff",
-            secondary: "#5a5a5a",
-          },
-        },
-
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -82,9 +72,10 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        amsterdam: ["Matemasie", "sans-serif"],
-        poppins: ["Poppins", "sans-serif"],
-      }
+        sans: ["Inter", "system-ui", "Arial", "sans-serif"],
+        poppins: ["Poppins", "arial"],
+        matemasie: ["Matemasie", "Arial"],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
